@@ -1,0 +1,55 @@
+{
+  "app": {
+    "bundleName": "com.younes.qrcode",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.younes.qrcode",
+    "name": ".MyApplication",
+    "mainAbility": "com.younes.qrcode.MainAbility",
+    "deviceType": [
+      "wearable",
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.younes.qrcode.MainAbility",
+        "description": "$string:mainability_description",
+        "icon": "$media:icon",
+        "label": "$string:name",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.younes.qrcode.QrCodeAbility",
+        "description": "$string:mainability_description",
+        "label": "$string:name",
+        "type": "page"
+      }
+    ]
+  }
+}

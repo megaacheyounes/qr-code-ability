@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:background_element="#111"
+    ohos:orientation="vertical"
+ >
+
+    <Button
+        ohos:id="$+id:btn"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="show QR code"
+        ohos:background_element="$graphic:bg_button"
+        ohos:padding="10vp"
+        ohos:text_color="#fff"
+        ohos:text_size="20vp"
+        />
+
+</DirectionalLayout>

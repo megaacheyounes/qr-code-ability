@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#111"
+    ohos:orientation="vertical"
+    ohos:alignment="center"
+    >
+
+    <Image
+        ohos:id="$+id:qr_code_image"
+        ohos:height="150vp"
+        ohos:width="150vp"
+        ohos:scale_mode="clip_center"
+        ohos:visibility="visible"
+        />
+
+    <Text
+        ohos:id="$+id:qr_code_caption"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:horizontal_center="true"
+        ohos:text="Qr code - click to enlarge"
+        ohos:text_color="#ffffff"
+        ohos:text_size="10fp"
+        ohos:top_margin="5vp"
+        ohos:visibility="visible"
+        />
+</DirectionalLayout>
