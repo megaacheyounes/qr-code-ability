@@ -2,6 +2,7 @@
 
 this is a demo project showing you how to generate and display QR code in HarmonyOS wearable (watch) app using Zxing
 library
+
 ![screenshot](screenshot.png) 
 
 ## tutorial
